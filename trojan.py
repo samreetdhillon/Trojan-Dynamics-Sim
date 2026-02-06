@@ -13,9 +13,9 @@ TOTAL_FRAMES = ORBIT_DURATION * FPS
 OUTPUT_FILE = 'trojan_tadpole_horseshoe.mp4'
 
 # --- Physics Tweaks ---
-LIB_AMP_ANG = np.radians(12) # How wide the tadpole is
-LIB_AMP_RAD = 0.35           # How thick the tadpole is
-LIB_FREQ = 0.05              # Speed of the "dance"
+LIB_AMP_ANG = np.radians(12) # tadpole width
+LIB_AMP_RAD = 0.35           # tadpole thickness
+LIB_FREQ = 0.05              # Speed of the dance
 
 # --- Setup Figure ---
 fig, ax = plt.subplots(figsize=(10, 10), facecolor='black')
